@@ -9,7 +9,5 @@ router.get("/home",function(){
   res.send("home");
 })
 
-router.get("/login",function(){
-  res.send("login");
-})
+
 module.exports = router;
